@@ -1,0 +1,29 @@
+{
+  "name": "upload-data-ui",
+  "version": "1.0.0",
+  "description": "TypeScript Selenium project for browser automation testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [
+    "typescript",
+    "selenium",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.28",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
+    "csv-stringify": "^6.6.0",
+    "dotenv": "^17.2.2",
+    "selenium-webdriver": "^4.35.0"
+  }
+}
